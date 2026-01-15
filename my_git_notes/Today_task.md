@@ -7,5 +7,7 @@ it help collaborate all members in multiple projects. all developer see full his
 git is distributed control version . it is a open source . it help to track the code and changes in large file or project.
 
 **what is github**
-git and github is not same. git is
+git and github is not same. git is a tool and github is a large host of source of code in the world.
+
+
 
