@@ -202,10 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea1da1b0d6eec937",
+  "active": "3e67cbdb4c6d9ff7",
   "lastOpenFiles": [
-    "file1.txt",
+    "git init.md",
+    "Untitled.md",
     "create a link.md",
-    "git init.md"
+    "file1.txt"
   ]
 }
