@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my_git_notes/file1.md",
+                "file": "my_git_notes/Task-today.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "file1"
+              "title": "Task-today"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my_git_notes/file1.md",
+                "file": "my_git_notes/Task-today.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "file1"
+              "title": "Task-today"
             }
           }
         ]
@@ -201,7 +201,7 @@
   "active": "7f8f715f898e8977",
   "lastOpenFiles": [
     "git notes.md",
-    "my_git_notes/file1.md",
+    "my_git_notes/Task-today.md",
     "Untitled",
     "git init.md",
     "My_git_notes/file1.txt",
