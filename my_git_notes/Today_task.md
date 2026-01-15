@@ -1,2 +1,2 @@
 Today I'm learn how to sync obsidian with GitHub
-why git 
+why git : All developer u
