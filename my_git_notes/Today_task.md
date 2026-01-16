@@ -43,7 +43,7 @@ after i'm genrate key then save in github then clone private repo on my local ma
 		this cmd use for specific commit  move other branch to main branch 
 10: **git rebase** 
 		Git rebase takes commits from your branch and re-applies them on top of another branch main
-11: git push /pull 
+	
+11: **diff git merge & rebase** 
 		
-
 
