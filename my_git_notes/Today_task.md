@@ -27,7 +27,8 @@ after i'm genrate key then save in github then clone private repo on my local ma
    git config --global user.email "email"
    (this cmd use for the attach author info for any commit)
 3: git init
-    th
+    this cmd use for make current for into git repository
+4: 
 
 
 
