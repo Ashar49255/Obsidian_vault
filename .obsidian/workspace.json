@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93d3b0751d13afa4",
+  "active": "7f8f715f898e8977",
   "lastOpenFiles": [
     "Untitled.md",
     "my_git_notes/Today task.md",
