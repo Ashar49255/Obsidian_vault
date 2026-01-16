@@ -32,7 +32,7 @@ after i'm genrate key then save in github then clone private repo on my local ma
 4: git status
 		this cmd is show untrack, modify and stage files in git.
 5: git add .
-		in this cmd we are all file set in staging area. before cmmint we are run this cmd 
+		before commit we are run this cmd all set in staging area 
 6: git commit
 
 
