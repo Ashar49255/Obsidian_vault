@@ -35,7 +35,9 @@ after i'm genrate key then save in github then clone private repo on my local ma
 		before commit we are run this cmd because all file set in staging area 
 6: git commit -m
 		this cmd create snapshot of project.
-7 
+7: git checkout -b feature-x   
+		Create & switch new branch
+8: 
 
 
 
