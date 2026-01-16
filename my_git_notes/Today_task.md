@@ -38,7 +38,7 @@ after i'm genrate key then save in github then clone private repo on my local ma
 7: git checkout -b dev
 		Create & switch new branch
 8: git merge branch
-		
+			create two branch dev & dev2, this edit same file in this branch after we marge dev to dev2 then ac
 
 
 
