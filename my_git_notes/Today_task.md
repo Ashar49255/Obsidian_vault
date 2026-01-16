@@ -19,6 +19,7 @@ ssh key give me more secure and passwordless medthod for authenticating.
 
 after i'm genrate key then save in github then clone private repo on my local machine.
 
+git cm
 
 
 
