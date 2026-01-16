@@ -45,5 +45,6 @@ after i'm genrate key then save in github then clone private repo on my local ma
 		Git rebase takes commits from your branch and re-applies them on top of another branch main
 	
 11: **diff git merge & rebase** 
-		
-
+			merge                                                                              rebase
+		Creates a merge commit                                              No merge commit
+			
