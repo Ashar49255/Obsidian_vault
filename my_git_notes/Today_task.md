@@ -37,7 +37,8 @@ after i'm genrate key then save in github then clone private repo on my local ma
 		this cmd create snapshot of project.
 7: git checkout -b dev
 		Create & switch new branch
-8: git 
+8: git merge branch
+		
 
 
 
