@@ -21,6 +21,8 @@ after i'm genrate key then save in github then clone private repo on my local ma
 
 **git commands**
 
+git --version ( this cmd use for check git version)
+git con
 
 
 
