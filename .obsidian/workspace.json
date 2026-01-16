@@ -35,7 +35,8 @@
               "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my_git_notes/Today task.md",
+                "file": "my_git_notes/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Today task"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -199,10 +200,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f8f715f898e8977",
+  "active": "56a9140aa330c13a",
   "lastOpenFiles": [
-    "my_git_notes/Untitled.md",
+    "Untitled.pdf",
     "my_git_notes/Today task.md",
+    "my_git_notes/Untitled.md",
     "Untitled.md",
     "git notes.md",
     "Untitled",
