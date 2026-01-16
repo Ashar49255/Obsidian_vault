@@ -41,6 +41,8 @@ after i'm genrate key then save in github then clone private repo on my local ma
 			create two branch dev & dev2, this edit same file in this branch after we marge dev to dev2 then show conflict
 9: git cherry pick 
 			this cmd use for specific commit other branch into main branch 
+10: git rebase 
+
 
 
 
