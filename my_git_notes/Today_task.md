@@ -15,6 +15,8 @@ git and github is not same. git is a tool and github is a large host of source o
 why we use ssh key ?  
 ssh key give me more secure and passwordless medthod for authenticating.
 
+after i'm gen k
+
 
 
 
