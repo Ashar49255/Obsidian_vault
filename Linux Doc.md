@@ -325,17 +325,3 @@ Order: **Owner | Group | Others**
 **Why:** Create file references
 
 ---
-
-## 13. Mounting
-
-### `/etc/fstab`
-
-**Why:** Permanent disk mounts
-
----
-
-## 14. Package Management
-
-### `apt install`
-
-**Why:** Install software
