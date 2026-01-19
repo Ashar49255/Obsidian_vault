@@ -339,28 +339,3 @@ Order: **Owner | Group | Others**
 ### `apt install`
 
 **Why:** Install software
-
----
-
-## 15. Shutdown
-
-### `shutdown`
-
-**Why:** Safely stop system
-
----
-
-## Quick DevOps Notes
-
-- Logs → `/var/log`
-    
-- Config → `/etc`
-    
-- Root → `sudo`
-    
-- Stop command → `Ctrl + C`
-    
-
----
-
-**End of Linux Commands Documentation**
