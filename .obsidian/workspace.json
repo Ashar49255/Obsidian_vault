@@ -25,12 +25,14 @@
             "id": "56a9140aa330c13a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.pdf"
+                "file": "my_git_notes/Git Doc.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Git Doc"
             }
           }
         ],
@@ -200,8 +202,8 @@
   },
   "active": "56a9140aa330c13a",
   "lastOpenFiles": [
-    "my_git_notes/Git Doc.md",
     "Untitled.pdf",
+    "my_git_notes/Git Doc.md",
     "my_git_notes/Today task.md",
     "Untitled.md",
     "git notes.md",
