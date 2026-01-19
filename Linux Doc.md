@@ -109,21 +109,3 @@
 |`vi` / `vim`|Advanced, server-side editing|
 
 ---
-
-
----
-
-## Search & Find
-
-|Command|Description|Example|
-|---|---|---|
-|`find /path -name "*.log"`|Find files|Search for all `.log` files|
-|`grep "error" file`|Search text|`grep "error" /var/log/syslog`|
-
----
-
-## Links
-
-|Command|Description|Example|
-|---|---|---|
-|`ln -s target link`|Create symbolic link|`ln -s /var/www html`|
