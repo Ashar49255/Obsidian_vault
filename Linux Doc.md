@@ -128,3 +128,19 @@
 `ps aux | grep nginx ls | wc -l`
 
 -------------------------------------------------------------------
+## Search Commands (find vs grep)
+
+### find = files search
+
+`find . -name "*.conf" find /etc -type f -name "*.conf"`
+
+### grep = text search
+
+`grep "error" file.txt grep -R "error" /var/log`
+
+| Tool   | Use       |
+| ------ | --------- |
+| `find` | find file |
+| `grep` | find text |
+
+-----------------------------------------------------------------------
