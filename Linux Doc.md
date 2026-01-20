@@ -112,4 +112,17 @@
 
 
 **20/1/2025
------------------------------------------------------------------man
+-----------------------------------------------------------------
+## Redirection & Pipes (MOST IMPORTANT)
+
+### Output to file
+
+`ls > out.txt`
+
+### Append
+
+`ls >> out.txt`
+
+### Pipe (connect commands)
+
+`ps aux | grep nginx ls | wc -l`
