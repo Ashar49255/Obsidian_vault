@@ -109,50 +109,70 @@ This is why it’s called a **reverse proxy** when passing requests to your app 
 
 ---
 
-# Reverse Proxy
+## **1️⃣ Reverse Proxy**
 
-## Definition:
+**Definition:**  
+A **reverse proxy** is a server that **sits in front of backend servers** and forwards client requests to the appropriate backend. It also sends the backend’s response back to the client.
 
-A reverse proxy sits **in front of backend servers**, accepting requests from clients and forwarding them to appropriate backend servers.
+**Use / Purpose:**
 
-## Key Uses:
-
-1. **Load Distribution**: Distributes traffic across multiple servers
+- Hide backend servers from the internet (security)
     
-2. **SSL Termination**: Handles HTTPS encryption
+- Load balancing between multiple backend servers
     
-3. **Caching**: Stores static content to reduce backend load
+- SSL/TLS termination (HTTPS handling)
     
-4. **Security**: Hides backend server details, provides DDoS protection
+- Caching static or frequently accessed content
+    
+- Compression or request filtering
+    
 
-## Example Flow:
+**Example:** Nginx acting as reverse proxy for a Python Flask app.
 
-text
+**Flow:**
 
-Client → Reverse Proxy → [Server1, Server2, Server3]
-           (public IP)      (private IPs, hidden)
+`Client → Reverse Proxy (Nginx) → Backend Server Backend Response → Reverse Proxy → Client`
 
 ---
 
-# Forward Proxy
+## **2️⃣ Forward Proxy**
 
-## Definition:
+**Definition:**  
+A **forward proxy** is a server that **sits in front of clients** and forwards their requests to the internet. It is mostly used by **clients to access resources anonymously** or bypass restrictions.
 
-A forward proxy sits **in front of clients**, acting as an intermediary between clients and the internet.
+**Use / Purpose:**
 
-## Key Uses:
-
-1. **Access Control**: Restricts which websites users can visit
+- Hide client IP address
     
-2. **Privacy/Anonymity**: Hides client IP addresses
+- Access blocked websites / bypass geo-restrictions
     
-3. **Caching**: Stores frequently accessed content locally
+- Internet filtering (schools, offices)
+    
+- Caching to save bandwidth
     
 
-## Example Flow:
+**Example:** A company proxy that employees use to access websites.
 
-text
+**Flow:**
 
-[Client1, Client2, Client3] → Forward Proxy → Internet
-   (internal network)           (gateway)
+`Client → Forward Proxy → Internet / Target Server Response → Forward Proxy → Client`
 
+---
+
+## **3️⃣ Reverse Proxy vs Forward Proxy**
+
+|Feature|Reverse Proxy|Forward Proxy|
+|---|---|---|
+|**Location**|In front of **servers**|In front of **clients**|
+|**Purpose**|Protect and manage servers|Protect and manage clients|
+|**Visibility**|Client sees proxy as the server|Server sees proxy as the client|
+|**Common Use**|Load balancing, caching, SSL termination|Anonymity, internet filtering, bypass restrictions|
+|**Who it serves**|Backend servers|Clients|
+
+---
+
+💡 **Easy way to remember:**
+
+- **Reverse Proxy** = Protects the **server side**.
+    
+- **Forward Proxy** = Protects the **client side**.
