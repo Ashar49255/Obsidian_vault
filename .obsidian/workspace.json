@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deploying WordPress on Nginx.md",
+                "file": "Nginx learning 21-01-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deploying WordPress on Nginx"
+              "title": "Nginx learning 21-01-2026"
             }
           },
           {
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deploying WordPress on Nginx.md",
+                "file": "Nginx learning 21-01-2026.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deploying WordPress on Nginx"
+              "title": "Backlinks for Nginx learning 21-01-2026"
             }
           },
           {
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deploying WordPress on Nginx.md",
+                "file": "Nginx learning 21-01-2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Deploying WordPress on Nginx"
+              "title": "Outgoing links from Nginx learning 21-01-2026"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deploying WordPress on Nginx.md",
+                "file": "Nginx learning 21-01-2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deploying WordPress on Nginx"
+              "title": "Outline of Nginx learning 21-01-2026"
             }
           }
         ],
@@ -244,6 +244,10 @@
   },
   "active": "d35c560a85d572fd",
   "lastOpenFiles": [
+    "my_git_notes/Git Doc.md",
+    "Linux Doc.md",
+    "Deploying WordPress on Nginx.md",
+    "linux work 20.1.2026.md",
     "Pasted image 20260121182356.png",
     "Pasted image 20260121171448.png",
     "Pasted image 20260121171125.png",
@@ -252,10 +256,6 @@
     "Pasted image 20260121170347.png",
     "Pasted image 20260121170341.png",
     "Nginx learning 21-01-2026.md",
-    "Deploying WordPress on Nginx.md",
-    "my_git_notes/Git Doc.md",
-    "Linux Doc.md",
-    "linux work 20.1.2026.md",
     "git pdf.pdf",
     "my_git_notes/Today task.md",
     "git notes.md",
