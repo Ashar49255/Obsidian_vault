@@ -14,3 +14,4 @@ Architecture (Simple)
 
 
 ![[Pasted image 20260121170347.png]]
+<center>Step 2: Install MySQL and create WordPress DB & User</center>
