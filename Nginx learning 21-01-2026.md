@@ -109,5 +109,50 @@ This is why it’s called a **reverse proxy** when passing requests to your app 
 
 ---
 
+# Reverse Proxy
 
+## Definition:
+
+A reverse proxy sits **in front of backend servers**, accepting requests from clients and forwarding them to appropriate backend servers.
+
+## Key Uses:
+
+1. **Load Distribution**: Distributes traffic across multiple servers
+    
+2. **SSL Termination**: Handles HTTPS encryption
+    
+3. **Caching**: Stores static content to reduce backend load
+    
+4. **Security**: Hides backend server details, provides DDoS protection
+
+## Example Flow:
+
+text
+
+Client → Reverse Proxy → [Server1, Server2, Server3]
+           (public IP)      (private IPs, hidden)
+
+---
+
+# Forward Proxy
+
+## Definition:
+
+A forward proxy sits **in front of clients**, acting as an intermediary between clients and the internet.
+
+## Key Uses:
+
+1. **Access Control**: Restricts which websites users can visit
+    
+2. **Privacy/Anonymity**: Hides client IP addresses
+    
+3. **Caching**: Stores frequently accessed content locally
+    
+
+## Example Flow:
+
+text
+
+[Client1, Client2, Client3] → Forward Proxy → Internet
+   (internal network)           (gateway)
 
