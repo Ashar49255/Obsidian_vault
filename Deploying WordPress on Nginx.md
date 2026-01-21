@@ -30,3 +30,7 @@ Architecture (Simple)
 
 <center>step 5: Configure WordPress</center>
 
+
+![[Pasted image 20260121182356.png]]
+
+
