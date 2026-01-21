@@ -108,54 +108,106 @@ This is why it’s called a **reverse proxy** when passing requests to your app 
     
 
 ---
+## **1. Forward Proxy (Client Side Proxy)**
 
-## **1️⃣ Reverse Proxy**
+### **What is it?**
 
-**Definition:**  
-A **reverse proxy** is a server that **sits in front of backend servers** and forwards client requests to the appropriate backend. It also sends the backend’s response back to the client.
-
-**Use / Purpose:**
-
-- Hide backend servers from the internet (security)
+- Forward Proxy sits **in front of users (clients)**.
     
-- Load balancing between multiple backend servers
-    
-- SSL/TLS termination (HTTPS handling)
-    
-- Caching static or frequently accessed content
-    
-- Compression or request filtering
+- It hides the **client** from the internet.
     
 
-**Example:** Nginx acting as reverse proxy for a Python Flask app.
+### **Simple Example**
 
-**Flow:**
+Imagine:
 
-`Client → Reverse Proxy (Nginx) → Backend Server Backend Response → Reverse Proxy → Client`
+- You (user) want to visit **google.com**
+    
+- You are not allowed directly
+    
+- You send request to a **proxy server**
+    
+- Proxy server sends request to Google **on your behalf**
+    
+
+👉 Google **does NOT know who you are**, it only sees the proxy.
+
+### **Flow**
+
+`User → Forward Proxy → Internet/Website`
+
+### **Why use Forward Proxy?**
+
+- Hide user identity (privacy)
+    
+- Control internet usage (schools, offices)
+    
+- Block websites
+    
+- Cache websites to save bandwidth
+    
+
+### **Real-life Example**
+
+- Office internet restrictions
+    
+- VPN (mostly works like forward proxy)
+    
 
 ---
 
-## **2️⃣ Forward Proxy**
+## **2. Reverse Proxy (Server Side Proxy)**
 
-**Definition:**  
-A **forward proxy** is a server that **sits in front of clients** and forwards their requests to the internet. It is mostly used by **clients to access resources anonymously** or bypass restrictions.
+### **What is it?**
 
-**Use / Purpose:**
-
-- Hide client IP address
+- Reverse Proxy sits **in front of servers**.
     
-- Access blocked websites / bypass geo-restrictions
-    
-- Internet filtering (schools, offices)
-    
-- Caching to save bandwidth
+- It hides the **backend servers** from users.
     
 
-**Example:** A company proxy that employees use to access websites.
+### **Simple Example**
 
-**Flow:**
+Imagine:
 
-`Client → Forward Proxy → Internet / Target Server Response → Forward Proxy → Client`
+- User opens **your website**
+    
+- Request first goes to **NGINX**
+    
+- NGINX forwards it to:
+    
+    - App server
+        
+    - Backend server
+        
+    - Database server
+        
+
+👉 User **never knows** which server handled the request.
+
+### **Flow**
+
+`User → Reverse Proxy (NGINX) → Backend Servers`
+
+### **Why use Reverse Proxy?**
+
+- Load balancing
+    
+- Security (hide backend servers)
+    
+- SSL handling (HTTPS)
+    
+- Better performance
+    
+- Caching
+    
+
+### **Real-life Example**
+
+- NGINX
+    
+- HAProxy
+    
+- AWS Load Balancer
 
 ---
 
