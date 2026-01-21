@@ -39,14 +39,12 @@
             "id": "d35c560a85d572fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Nginx learning 21-01-2026.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260121170347.png"
               },
-              "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260121170347"
             }
           },
           {
@@ -151,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx learning 21-01-2026.md",
+                "file": "Pasted image 20260121170347.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -161,7 +159,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nginx learning 21-01-2026"
+              "title": "Backlinks for Pasted image 20260121170347"
             }
           },
           {
@@ -170,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx learning 21-01-2026.md",
+                "file": "Pasted image 20260121170347.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Nginx learning 21-01-2026"
+              "title": "Outgoing links from Pasted image 20260121170347"
             }
           },
           {
@@ -213,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx learning 21-01-2026.md",
+                "file": "Pasted image 20260121170347.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nginx learning 21-01-2026"
+              "title": "Outline of Pasted image 20260121170347"
             }
           }
         ],
@@ -244,18 +242,18 @@
   },
   "active": "d35c560a85d572fd",
   "lastOpenFiles": [
-    "my_git_notes/Git Doc.md",
-    "Linux Doc.md",
-    "Deploying WordPress on Nginx.md",
-    "linux work 20.1.2026.md",
-    "Pasted image 20260121182356.png",
-    "Pasted image 20260121171448.png",
-    "Pasted image 20260121171125.png",
     "Pasted image 20260121170957.png",
     "Pasted image 20260121170513.png",
     "Pasted image 20260121170347.png",
     "Pasted image 20260121170341.png",
+    "Deploying WordPress on Nginx.md",
     "Nginx learning 21-01-2026.md",
+    "my_git_notes/Git Doc.md",
+    "Linux Doc.md",
+    "linux work 20.1.2026.md",
+    "Pasted image 20260121182356.png",
+    "Pasted image 20260121171448.png",
+    "Pasted image 20260121171125.png",
     "git pdf.pdf",
     "my_git_notes/Today task.md",
     "git notes.md",
