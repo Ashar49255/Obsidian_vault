@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux work 20.1.2026.md",
+                "file": "my_git_notes/Git Doc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux work 20.1.2026"
+              "title": "Git Doc"
             }
           }
         ],
@@ -214,7 +214,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "d3d2a54009189a35",
   "lastOpenFiles": [
     "Linux Doc.md",
     "linux work 20.1.2026.md",
