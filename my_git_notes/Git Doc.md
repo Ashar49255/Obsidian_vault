@@ -59,11 +59,11 @@
 
 ## **Advanced Git Commands**
 
-|Command|Purpose|
-|---|---|
-|`git cherry-pick <commit>`|Apply a specific commit from one branch to another|
-|`git rebase <branch>`|Move your branch’s commits on top of another branch|
-|**Merge vs Rebase**|Merge: Creates a merge commit, branched history Rebase: No merge commit, linear history|
+| Command                    | Purpose                                                                                 |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| `git cherry-pick <commit>` | Apply a specific commit from one branch to another                                      |
+| `git rebase <branch>`      | Move your branch’s commits on top of another branch                                     |
+| **Merge vs Rebase**        | Merge: Creates a merge commit, branched history Rebase: No merge commit, linear history |
 
 ---
 
@@ -78,3 +78,6 @@
 ```
 GIT CLONE ...
 ```
+
+# Check Remote Branch
+git branch -r
