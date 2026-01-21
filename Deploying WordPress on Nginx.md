@@ -10,6 +10,8 @@ Architecture (Simple)
 **PHP Version:** 8.3 FPM  
 **Database:** MySQL 8.0
 
-![](file:///C:/Users/DevOps/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)Step 1: system update & upgrade with install Nginx
+![](file:///C:/Users/DevOps/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)<center>Step 1: system update & upgrade with install Nginx</center>
+
+
 
 
