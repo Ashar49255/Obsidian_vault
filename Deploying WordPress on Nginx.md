@@ -24,3 +24,4 @@ Architecture (Simple)
 
 <center>step 4: NGINX configuration &  site Enable</center>
 
+![[Pasted image 20260121171448.png]]
