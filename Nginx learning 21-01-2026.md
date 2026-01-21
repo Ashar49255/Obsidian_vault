@@ -260,4 +260,8 @@ Imagine:
         
     - Nginx: Best for **high traffic websites, microservices, cloud apps, load balancing, reverse proxy setups**
 
+-------------------------
 
+- **Apache** = Old style, slower under high traffic, can run dynamic apps directly.
+    
+- **Nginx** = Modern, super fast, handles static content efficiently, uses backend for dynamic apps.
