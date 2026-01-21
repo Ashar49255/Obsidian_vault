@@ -15,3 +15,7 @@ Architecture (Simple)
 
 ![[Pasted image 20260121170347.png]]
 <center>Step 2: Install MySQL and create WordPress DB & User</center>
+
+![[Pasted image 20260121170513.png]]
+
+Step:3 Install PHP & PHP-FPM and Dl
