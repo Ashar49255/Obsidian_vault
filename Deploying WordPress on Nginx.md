@@ -20,8 +20,12 @@ Architecture (Simple)
 
 <center>Step:3 Install PHP & PHP8.3-FPM and Download Wordpress</center>
 
+
 ![[Pasted image 20260121171125.png]]
+
 
 <center>step 4: NGINX configuration &  site Enable</center>
 
 ![[Pasted image 20260121171448.png]]
+
+step 5Configure WordPress
