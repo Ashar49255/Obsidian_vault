@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux notes/linux work 20.1.2026.md",
+                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux work 20.1.2026"
+              "title": "Nginx learning 21-01-2026"
+            }
+          },
+          {
+            "id": "47d04b38e302d1b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -242,17 +256,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "47d04b38e302d1b3",
   "lastOpenFiles": [
+    "Nginx Notes/Nginx learning 21-01-2026.md",
+    "Untitled.md",
+    "DNS Notes",
+    "Nginx Notes/Deploying WordPress on Nginx.md",
     "Nginx Notes",
     "Linux notes",
     "Linux notes/linux work 20.1.2026.md",
-    "Untitled.md",
     "Linux notes/Linux Doc.md",
-    "Nginx Notes/Deploying WordPress on Nginx.md",
     "Twingate working Lab/Twingate ZTNA_Practical Implementation Guide.md",
     "Twingate working Lab",
-    "Nginx Notes/Nginx learning 21-01-2026.md",
     "Nginx Notes/Screenshot 2026-01-21 165117.png",
     "Nginx Notes/Pasted image 20260121182356.png",
     "Nginx Notes/Pasted image 20260121171448.png",
