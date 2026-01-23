@@ -82,62 +82,31 @@ This is why it’s called a **reverse proxy** when passing requests to your app 
 ## **1. Forward Proxy (Client Side Proxy)**
 ### **What is it?**
 - Forward Proxy sits **in front of users (clients)**.
-    
 - It hides the **client** from the internet.
-    
-
 ### **Simple Example**
-
 Imagine:
-
 - You (user) want to visit **google.com**
-    
 - You are not allowed directly
-    
 - You send request to a **proxy server**
-    
 - Proxy server sends request to Google **on your behalf**
-    
-
 👉 Google **does NOT know who you are**, it only sees the proxy.
-
 ### **Flow**
-
 `User → Forward Proxy → Internet/Website`
-
 ### **Why use Forward Proxy?**
-
 - Hide user identity (privacy)
-    
-- Control internet usage (schools, offices)
-    
-- Block websites
-    
-- Cache websites to save bandwidth
-    
-
-### **Real-life Example**
-
+    - Control internet usage (schools, offices)
+    - Block websites
+    - Cache websites to save bandwidth
+    ### **Real-life Example**
 - Office internet restrictions
-    
 - VPN (mostly works like forward proxy)
-    
-
 ---
-
 ## **2. Reverse Proxy (Server Side Proxy)**
-
 ### **What is it?**
-
 - Reverse Proxy sits **in front of servers**.
-    
 - It hides the **backend servers** from users.
-    
-
 ### **Simple Example**
-
 Imagine:
-
 - User opens **your website**
     
 - Request first goes to **NGINX**
