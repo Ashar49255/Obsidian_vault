@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
+                "file": "Nginx Notes/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
+              "title": "Untitled"
             }
           }
         ],
@@ -258,8 +258,10 @@
   },
   "active": "47d04b38e302d1b3",
   "lastOpenFiles": [
-    "Linux notes/linux work 20.1.2026.md",
+    "Untitled.md",
+    "Nginx Notes/Untitled.md",
     "Nginx Notes/Nginx learning 21-01-2026.md",
+    "Linux notes/linux work 20.1.2026.md",
     "Linux notes/Linux Doc.md",
     "DNS (Domain name System).md",
     "DNS Notes",
