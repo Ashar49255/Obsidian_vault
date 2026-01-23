@@ -83,16 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DNS (Domain name System).md",
+                "file": "Linux notes/linux work 20.1.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS (Domain name System)"
+              "title": "linux work 20.1.2026"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,16 +256,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "65c84b0f2f359481",
   "lastOpenFiles": [
-    "Nginx Notes/Nginx learning 21-01-2026.md",
+    "Linux notes/linux work 20.1.2026.md",
+    "Linux notes/Linux Doc.md",
     "DNS (Domain name System).md",
+    "Nginx Notes/Nginx learning 21-01-2026.md",
     "DNS Notes",
     "Nginx Notes/Deploying WordPress on Nginx.md",
     "Nginx Notes",
     "Linux notes",
-    "Linux notes/linux work 20.1.2026.md",
-    "Linux notes/Linux Doc.md",
     "Twingate working Lab/Twingate ZTNA_Practical Implementation Guide.md",
     "Twingate working Lab",
     "Nginx Notes/Screenshot 2026-01-21 165117.png",

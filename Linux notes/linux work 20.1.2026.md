@@ -179,3 +179,13 @@ rsync -av /home/ashar/ /backup/ashar/
 
 ---
 
+### UFW kya hai?
+
+**UFW (Uncomplicated Firewall)** Linux (Ubuntu) ka **firewall management tool** hai.  
+Iska kaam hota hai:
+
+- System ko **unauthorized traffic** se bachana
+- Ye control karta hai **kaun sa port open hai, kaun sa band**
+   Basically:  
+**Firewall = gatekeeper**  
+**UFW = gatekeeper ko control karne ka easy remote**
