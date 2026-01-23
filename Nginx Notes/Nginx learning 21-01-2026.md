@@ -108,47 +108,25 @@ Imagine:
 ### **Simple Example**
 Imagine:
 - User opens **your website**
-    
 - Request first goes to **NGINX**
-    
 - NGINX forwards it to:
-    
     - App server
-        
-    - Backend server
-        
+     - Backend server    
     - Database server
-        
-
 👉 User **never knows** which server handled the request.
-
 ### **Flow**
-
 `User → Reverse Proxy (NGINX) → Backend Servers`
-
 ### **Why use Reverse Proxy?**
-
 - Load balancing
-    
 - Security (hide backend servers)
-    
 - SSL handling (HTTPS)
-    
 - Better performance
-    
 - Caching
-    
-
 ### **Real-life Example**
-
 - NGINX
-    
 - HAProxy
-    
 - AWS Load Balancer
-
 ---
-
 ## **3️⃣ Reverse Proxy vs Forward Proxy**
 
 |Feature|Reverse Proxy|Forward Proxy|
