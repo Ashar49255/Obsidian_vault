@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -256,12 +256,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65c84b0f2f359481",
+  "active": "47d04b38e302d1b3",
   "lastOpenFiles": [
-    "Linux notes/linux work 20.1.2026.md",
-    "Linux notes/Linux Doc.md",
-    "DNS (Domain name System).md",
     "Nginx Notes/Nginx learning 21-01-2026.md",
+    "Linux notes/Linux Doc.md",
+    "Linux notes/linux work 20.1.2026.md",
+    "DNS (Domain name System).md",
     "DNS Notes",
     "Nginx Notes/Deploying WordPress on Nginx.md",
     "Nginx Notes",
