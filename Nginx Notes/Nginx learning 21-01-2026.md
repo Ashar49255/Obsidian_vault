@@ -56,62 +56,31 @@ This is why it’s called a **reverse proxy** when passing requests to your app 
 ---
 
 ## **5. Basic NGINX Usage**
-
 1. **Install NGINX**
-    
-
 `sudo apt update sudo apt install nginx`
-
 2. **Start NGINX**
-    
-
 `sudo systemctl start nginx`
-
 3. **Check status**
-    
-
 `sudo systemctl status nginx`
-
 4. **Visit in browser**
-    
-
 - Go to `http://localhost`
-    
 - You will see the default NGINX page.
-    
-
-5. **Stop NGINX**
-    
-
+1. **Stop NGINX**
 `sudo systemctl stop nginx`
 
 ---
-
 ## **6. Where NGINX stores files**
-
 - **Configuration files:** `/etc/nginx/`
-    
 - **Web files (HTML, images):** `/var/www/html/`
-    
-
 ---
-
 ## **7. NGINX is used for**
-
 - Hosting websites
-    
 - Serving static files fast
-    
 - Acting as a reverse proxy (sending requests to app servers)
-    
 - Load balancing (sharing traffic across multiple servers)
-    
-
 ---
 ## **1. Forward Proxy (Client Side Proxy)**
-
 ### **What is it?**
-
 - Forward Proxy sits **in front of users (clients)**.
     
 - It hides the **client** from the internet.
