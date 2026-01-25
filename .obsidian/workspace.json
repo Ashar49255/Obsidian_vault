@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DNS Notes/DNS (Domain name System).md",
+                "file": "Linux Assigment/Raw file.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS (Domain name System)"
+              "title": "Raw file"
             }
           }
         ]
@@ -185,20 +185,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "2034cba3211396e3",
   "lastOpenFiles": [
-    "Untitled",
+    "Untitled.md",
+    "Linux Assigment/Raw file.md",
+    "DNS Notes/DNS (Domain name System).md",
+    "Linux Assigment",
     "Linux notes/linux work 20.1.2026.md",
     "Nginx Notes/Nginx Frontend & backend  config.md",
     "Nginx Notes/Nginx learning 21-01-2026.md",
     "Linux notes/Linux Doc.md",
     "my_git_notes/Git Doc.md",
     "Nginx Notes/Deploying WordPress on Nginx.md",
-    "DNS Notes/DNS (Domain name System).md",
     "DNS Notes/Untitled.base",
     "DNS Notes/2026-01-25.md",
     "DNS Notes/Untitled 1.canvas",
-    "Untitled.md",
     "DNS Notes",
     "Nginx Notes",
     "Linux notes",
@@ -219,7 +220,6 @@
     "My_git_notes/file1.txt",
     "my_git_notes",
     "notes",
-    "create a link.md",
-    "file1.txt"
+    "create a link.md"
   ]
 }
