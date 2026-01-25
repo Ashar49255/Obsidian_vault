@@ -34,88 +34,50 @@ fallocate -l 5G file.raw
 ### What happens?
 
 - A 5GB file is created **instantly**
-    
 - Disk space is **actually occupied**
-    
 - No real data is written (space is just reserved)
-    
-
 **Use when:**
-
 - You need a large file quickly
-    
 - VM disks, labs, testing, practice
-    
 
 ---
 
 ## 2️⃣ `dd` — **Writes Real Data**
-
 **Meaning:**  
 Write actual data (usually zeros) into the file.
-
 dd if=/dev/zero of=file.raw bs=1G count=5
-
 ### Breakdown:
-
-- `if=/dev/zero` → source of zero data
-    
-- `of=file.raw` → output file
-    
-- `bs=1G` → write 1GB at a time
-    
-- `count=5` → write 5 times
-    
+- `if=/dev/zero` → source of zero data  
+- `of=file.raw` → output file   
+- `bs=1G` → write 1GB at a time  
+- `count=5` → write 5 times 
 
 ### Result:
-
-- A real 5GB file
-    
-- Every byte contains data (zeros)
-    
+- A real 5GB file  
+- Every byte contains data (zeros)   
 - **Slower**, but most realistic
-    
-
 **Use when:**
-
-- Disk performance testing
-    
-- Storage labs
-    
-- Interview-preferred example
-    
-
+- Disk performance testing   
+- Storage labs   
+- Interview-preferred example 
 ---
 
 ## 3️⃣ `truncate` — **Fake Size (Sparse File)** 😄
-
 **Meaning:**  
 Set file size without allocating disk space yet.
-
 truncate -s 5G file.raw
-
 ### What happens?
-
-- File _appears_ to be 5GB
-    
-- Disk space is **not used immediately**
-    
-- Space is allocated only when data is written
-    
+- File _appears_ to be 5GB   
+- Disk space is **not used immediately**   
+- Space is allocated only when data is written    
 
 **Use when:**
-
-- Dummy files
-    
+- Dummy files    
 - Script testing
-    
 - Quick demos
-    
-
 ---
 
 ## 🔍 Verify the Difference
-
 ls -lh file.raw   # shows file size
 du -h file.raw    # shows actual disk usage
 
