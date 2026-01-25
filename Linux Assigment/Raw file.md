@@ -16,9 +16,9 @@ raw file is use for virtual disk, practice store, like we use AWS EBS / GCP Disk
 | 2   | **It must be formatted with a filesystem and mounted before use.** |
 # Real-World Mapping (important)
 
-|Lab|Real World|
-|---|---|
-|file.raw|AWS EBS|
-|mkfs|Format disk|
-|mount|Attach disk|
-|/mnt/rawdisk|EC2 mount point|
+| Lab          | Real World      |     |
+| ------------ | --------------- | --- |
+| file.raw     | AWS EBS         |     |
+| mkfs         | Format disk     |     |
+| mount        | Attach disk     |     |
+| /mnt/rawdisk | EC2 mount point |     |
