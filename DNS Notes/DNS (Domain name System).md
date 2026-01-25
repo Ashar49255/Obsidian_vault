@@ -58,18 +58,7 @@ Browser
 → Authoritative Server  
 → IP Address returned  
 → Website opens
-abc 
-bbvvcc
-jhgjhg
-ll
-''
-lkj
-oko
-ljlkjljjljkklljkkjll
-l
-ll
-l
-l
+
 
 
 
