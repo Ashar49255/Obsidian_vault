@@ -10,5 +10,6 @@ because this is binary disk data
 raw file is use for virtual disk, practice store, like we use AWS EBS / GCP Disk
 
 
-# A raw file is a binary file used as a virtual disk.  
-# It must be formatted with a filesystem and mounted before use.
+| 1   | A raw file is a binary file used as a virtual disk.            |
+| --- | -------------------------------------------------------------- |
+| 2   | It must be formatted with a filesystem and mounted before use. |
