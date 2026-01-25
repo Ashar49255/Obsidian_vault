@@ -1,3 +1,4 @@
 What is Raw file?
 Raw file = like empty hard disk
-this file not Text 
+In this file not Text 
+like nano , vim , cat 
