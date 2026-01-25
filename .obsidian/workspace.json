@@ -4,95 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b17d5797cddd570e",
+        "id": "fa0e3dd591054462",
         "type": "tabs",
         "children": [
           {
-            "id": "6addc711968e7110",
+            "id": "2034cba3211396e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my_git_notes/Git Doc.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Git Doc"
-            }
-          },
-          {
-            "id": "cec36689e9364b5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nginx learning 21-01-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
-            }
-          },
-          {
-            "id": "d35c560a85d572fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
-            }
-          },
-          {
-            "id": "65c84b0f2f359481",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux notes/Linux Doc.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux Doc"
-            }
-          },
-          {
-            "id": "d3d2a54009189a35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
-            }
-          },
-          {
-            "id": "47d04b38e302d1b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -256,16 +181,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47d04b38e302d1b3",
+  "active": "2034cba3211396e3",
   "lastOpenFiles": [
     "Nginx Notes/Nginx Frontend & backend  config.md",
     "Nginx Notes/Nginx learning 21-01-2026.md",
+    "Linux notes/Linux Doc.md",
+    "my_git_notes/Git Doc.md",
+    "Nginx Notes/Deploying WordPress on Nginx.md",
+    "DNS Notes/DNS (Domain name System).md",
+    "DNS Notes/Untitled.base",
+    "DNS Notes/2026-01-25.md",
+    "DNS Notes/Untitled 1.canvas",
     "Untitled.md",
     "Linux notes/linux work 20.1.2026.md",
-    "Linux notes/Linux Doc.md",
-    "DNS (Domain name System).md",
     "DNS Notes",
-    "Nginx Notes/Deploying WordPress on Nginx.md",
     "Nginx Notes",
     "Linux notes",
     "Twingate working Lab/Twingate ZTNA_Practical Implementation Guide.md",
@@ -278,7 +207,6 @@
     "Nginx Notes/Pasted image 20260121170513.png",
     "Nginx Notes/Pasted image 20260121170347.png",
     "Nginx Notes/Pasted image 20260121170341.png",
-    "my_git_notes/Git Doc.md",
     "git pdf.pdf",
     "my_git_notes/Today task.md",
     "git notes.md",
