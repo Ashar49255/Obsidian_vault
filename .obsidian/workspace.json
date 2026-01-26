@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
+                "file": "Linux notes/linux work 20.1.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
+              "title": "linux work 20.1.2026"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "virtual",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,24 +215,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c27af9a4050330f0",
+  "active": "ffdad2665ed2bda3",
   "lastOpenFiles": [
+    "Linux notes/Linux Doc.md",
+    "Linux Assigment/Linux CMD.md",
+    "DNS Notes/2026-01-25.md",
+    "DNS Notes/DNS (Domain name System).md",
+    "Nginx Notes/Nginx learning 21-01-2026.md",
     "Nginx Notes/Deploying WordPress on Nginx.md",
     "Nginx Notes/Nginx Frontend & backend  config.md",
-    "DNS Notes/DNS (Domain name System).md",
     "Linux Assigment/User Management.md",
     "DNS Notes/Untitled.base",
     "Untitled.md",
     "Linux Assigment/Linux File Protection  chattr +i.md",
-    "Linux Assigment/Linux CMD.md",
     "Linux Assigment/Raw file.md",
     "Linux Assigment/User and SSH.md",
     "Linux Assigment",
     "Linux notes/linux work 20.1.2026.md",
-    "Nginx Notes/Nginx learning 21-01-2026.md",
-    "Linux notes/Linux Doc.md",
     "my_git_notes/Git Doc.md",
-    "DNS Notes/2026-01-25.md",
     "DNS Notes/Untitled 1.canvas",
     "DNS Notes",
     "Nginx Notes",
