@@ -29,44 +29,26 @@ sudo systemctl restart ssh
 To allow users to run sudo commands:
 sudo usermod -aG sudo user1
 sudo usermod -aG sudo user2
+
 ---
 
 ## **5. Testing SSH Access**
-
 ### **From the VM itself:**
-
 ssh user1@localhost
-
 ssh user2@localhost
-
 - Enter password → login should work.
-    
-
 ### **From the host machine (VM IP):**
-
 ssh user1@VM_IP
-
 ssh user2@VM_IP
-
 - Replace `VM_IP` with the VM’s IP:
-    
-
 hostname -I
-
 ---
-
 ## **6. Workflow Summary**
-
 adduser → ssh config → restart ssh → test login
 
 ---
-
 ## **7. Notes / Best Practices**
-
 - Always check the **exact spelling** of usernames.
-    
 - Restrict SSH access using **AllowUsers**.
-    
 - Disable root login for security (`PermitRootLogin no` in sshd_config).
-    
 - Use `sudo` group for controlled administrative privileges.
