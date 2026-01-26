@@ -1,5 +1,4 @@
 # Linux Commands – Concise Practical Guide
-
 ## 1. dig – DNS Lookup
 # Basic usage
 dig google.com A
