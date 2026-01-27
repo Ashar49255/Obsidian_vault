@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx Notes/Nginx learning 21-01-2026.md",
+                "file": "Linux Assigment/User Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx learning 21-01-2026"
+              "title": "User Management"
             }
           }
         ],
@@ -216,21 +216,21 @@
   },
   "active": "c27af9a4050330f0",
   "lastOpenFiles": [
+    "Linux Assigment/User and SSH.md",
+    "Linux Assigment/Raw file.md",
+    "Linux Assigment/Linux File Protection  chattr +i.md",
+    "Linux Assigment/Linux CMD.md",
+    "Nginx Notes/Nginx learning 21-01-2026.md",
     "Nginx Notes/Pasted image 20260121170341.png",
     "Nginx Notes/Nginx Frontend & backend  config.md",
-    "Linux Assigment/Raw file.md",
     "Linux notes/linux work 20.1.2026.md",
     "Linux notes/Linux Doc.md",
-    "Linux Assigment/Linux CMD.md",
     "DNS Notes/2026-01-25.md",
     "DNS Notes/DNS (Domain name System).md",
-    "Nginx Notes/Nginx learning 21-01-2026.md",
     "Nginx Notes/Deploying WordPress on Nginx.md",
     "Linux Assigment/User Management.md",
     "DNS Notes/Untitled.base",
     "Untitled.md",
-    "Linux Assigment/Linux File Protection  chattr +i.md",
-    "Linux Assigment/User and SSH.md",
     "Linux Assigment",
     "my_git_notes/Git Doc.md",
     "DNS Notes/Untitled 1.canvas",

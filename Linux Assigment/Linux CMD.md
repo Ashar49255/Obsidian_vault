@@ -79,3 +79,4 @@ free -h       # memory usage
 ## 9. systemctl – Manage services
 systemctl status nginx
 systemctl restart docker
+
