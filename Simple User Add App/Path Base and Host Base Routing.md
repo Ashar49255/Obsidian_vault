@@ -36,7 +36,6 @@ Is mein **domain / subdomain (host)** dekh kar request route hoti hai.
 Yahan **alag alag ghar (subdomains)** hain, har ghar ka apna kaam.
 
 ---
-
 ### Path vs Host — Simple Comparison
 
 |Cheez|Path-Based|Host-Based|
