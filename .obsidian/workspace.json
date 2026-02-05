@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Simple User Add App/SIMPLE DEPLOYMENT STEPS.md",
+                "file": "Simple User Add App/Path Base and Host Base Routing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SIMPLE DEPLOYMENT STEPS"
+              "title": "Path Base and Host Base Routing"
             }
           }
         ]
@@ -185,10 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "beba055a50d88c9f",
   "lastOpenFiles": [
-    "task user add",
     "Simple User Add App/SIMPLE DEPLOYMENT STEPS.md",
+    "Simple User Add App/Path Base and Host Base Routing.md",
+    "task user add",
     "Untitled.md",
     "Untitled",
     "Linux Assigment/Linux CMD.md",
@@ -226,7 +227,6 @@
     "my_git_notes/Today task.md",
     "git notes.md",
     "git init.md",
-    "My_git_notes/file1.txt",
     "create a link.md"
   ]
 }
