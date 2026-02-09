@@ -172,6 +172,4 @@
 
 ---
 
-## **8️⃣ Interview Note**
-
-> “Built a full-stack AWS application: Frontend on S3 + CloudFront (HTTPS, CDN), backend REST APIs on EC2 (Flask), and RDS MySQL as database. Supports full CRUD operations with modern UI, secure and globally accessible.”
+> Built a full-stack AWS application: Frontend on S3 + CloudFront (HTTPS, CDN), backend REST APIs on EC2 (Flask), and RDS MySQL as database. Supports full CRUD operations with modern UI, secure and globally accessible.
