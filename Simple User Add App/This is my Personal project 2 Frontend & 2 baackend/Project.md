@@ -126,7 +126,7 @@ Exit MySQL:
 
 ---
 
-# 🎨 PHASE 7 – FRONTEND 2 (ATTRACTIVE UI)
+#  PHASE 7 – FRONTEND 2 (ATTRACTIVE UI)
 
 Same steps, different fields.
 
@@ -138,7 +138,7 @@ Same steps, different fields.
 
 ---
 
-# 🌐 PHASE 8 – FINAL NGINX CONFIG
+# PHASE 8 – FINAL NGINX CONFIG
 
 `server {   listen 443 ssl;   server_name ashar.razesteer.com;    location /app1/ {     root /var/www/app1-frontend/build;     try_files $uri /index.html;   }    location /api1/ {     proxy_pass http://localhost:5001;   }    location /app2/ {     root /var/www/app2-frontend/build;     try_files $uri /index.html;   }    location /api2/ {     proxy_pass http://localhost:5002;   } }`
 
