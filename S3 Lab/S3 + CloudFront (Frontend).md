@@ -66,7 +66,58 @@
 
 ## **3️⃣ Backend Code (app.py)**
 
-`from flask import Flask, jsonify, request from flask_cors import CORS import pymysql  app = Flask(__name__) CORS(app)  DB_HOST = "webapp-mysql-db.cjqomoqsm2ze.us-east-1.rds.amazonaws.com" DB_USER = "admin" DB_PASSWORD = "your_password" DB_NAME = "webapp-mysql-db"  def get_connection():     return pymysql.connect(         host=DB_HOST,         user=DB_USER,         password=DB_PASSWORD,         database=DB_NAME,         cursorclass=pymysql.cursors.DictCursor     )  @app.route("/api/users", methods=["GET"]) def get_users():     conn = get_connection()     cursor = conn.cursor()     cursor.execute("SELECT * FROM users")     data = cursor.fetchall()     conn.close()     return jsonify(data)  @app.route("/api/users", methods=["POST"]) def add_user():     data = request.json     conn = get_connection()     cursor = conn.cursor()     cursor.execute("INSERT INTO users (name,email) VALUES (%s,%s)", (data["name"],data["email"]))     conn.commit()     conn.close()     return jsonify({"message":"User added successfully"})  @app.route("/api/users/<int:user_id>", methods=["DELETE"]) def delete_user(user_id):     conn = get_connection()     cursor = conn.cursor()     cursor.execute("DELETE FROM users WHERE id=%s", (user_id,))     conn.commit()     conn.close()     return jsonify({"message":"User deleted successfully"})  if __name__ == "__main__":     app.run(host="0.0.0.0", port=5000, debug=True)`
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+import pymysql
+
+app = Flask(__name__)
+CORS(app)
+
+DB_HOST = "webapp-mysql-db.cjqomoqsm2ze.us-east-1.rds.amazonaws.com"
+DB_USER = "admin"
+DB_PASSWORD = "your_password"
+DB_NAME = "webapp-mysql-db"
+
+def get_connection():
+    return pymysql.connect(
+        host=DB_HOST,
+        user=DB_USER,
+        password=DB_PASSWORD,
+        database=DB_NAME,
+        cursorclass=pymysql.cursors.DictCursor
+    )
+
+@app.route("/api/users", methods=["GET"])
+def get_users():
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM users")
+    data = cursor.fetchall()
+    conn.close()
+    return jsonify(data)
+
+@app.route("/api/users", methods=["POST"])
+def add_user():
+    data = request.json
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("INSERT INTO users (name,email) VALUES (%s,%s)", (data["name"],data["email"]))
+    conn.commit()
+    conn.close()
+    return jsonify({"message":"User added successfully"})
+
+@app.route("/api/users/<int:user_id>", methods=["DELETE"])
+def delete_user(user_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM users WHERE id=%s", (user_id,))
+    conn.commit()
+    conn.close()
+    return jsonify({"message":"User deleted successfully"})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
+
 
 **Step 6:** Run backend
 
