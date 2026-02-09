@@ -106,15 +106,15 @@ Exit MySQL:
 
 ---
 
-# 🔁 PHASE 5 – PM2 (FINAL START)
+#  PHASE 5 – PM2 (FINAL START)
 
 `pm2 start /opt/api1-backend/index.js --name api1 pm2 start /opt/api2-backend/index.js --name api2  pm2 save pm2 startup`
 
-✅ Backend ab **auto-restart + reboot-safe** hai
+Backend ab **auto-restart + reboot-safe** hai
 
 ---
 
-# 🎨 PHASE 6 – FRONTEND 1 (ATTRACTIVE UI)
+# PHASE 6 – FRONTEND 1 (ATTRACTIVE UI)
 
 `cd /var/www npx create-react-app app1-frontend cd app1-frontend npm install axios`
 
@@ -146,7 +146,7 @@ Same steps, different fields.
 
 ---
 
-# ✅ FINAL TEST (BROWSER)
+# FINAL TEST (BROWSER)
 
 |URL|
 |---|
