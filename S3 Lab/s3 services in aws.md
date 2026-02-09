@@ -39,10 +39,10 @@
 
 ## **5. Common Commands (AWS CLI)**
 
- Upload file aws s3 cp file.txt s3://mybucket/
-List objects aws s3 ls s3://mybucket/
-Delete object aws s3 rm s3://mybucket/file.txt 
-Sync folder aws s3 sync ./local-folder s3://mybucket/`
+Upload file aws (s3 cp file.txt s3://mybucket/ )
+List objects aws (s3 ls s3://mybucket/ )
+Delete object aws (s3 rm s3://mybucket/file.txt )
+Sync folder aws (s3 sync ./local-folder s3://mybucket/ )`
 
 
 ---
