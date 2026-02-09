@@ -63,7 +63,6 @@ Sync folder aws s3 sync ./local-folder s3://mybucket/`
 - **ACLs** → Object-level permissions
 - **Encryption** → SSE-S3, SSE-KMS, SSE-C
 - **Public Access Block** → Prevent public exposure
-    
 
 ---
 
