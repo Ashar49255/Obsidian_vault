@@ -66,6 +66,8 @@
 
 ## **3️⃣ Backend Code (app.py)**
 
+`
+```python
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import pymysql
@@ -86,7 +88,7 @@ def get_connection():
         user=DB_USER,
         password=DB_PASSWORD,
         database=DB_NAME,
-        cursorclass=pymysql.cursors.DictCursor
+        cursorclass=pymysql.cursors.DictCursor,
     )
 
 
@@ -95,9 +97,9 @@ def get_users():
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM users")
-    users = cursor.fetchall()
+    data = cursor.fetchall()
     conn.close()
-    return jsonify(users)
+    return jsonify(data)
 
 
 @app.route("/api/users", methods=["POST"])
@@ -108,7 +110,7 @@ def add_user():
     cursor = conn.cursor()
     cursor.execute(
         "INSERT INTO users (name, email) VALUES (%s, %s)",
-        (data["name"], data["email"])
+        (data["name"], data["email"]),
     )
     conn.commit()
     conn.close()
@@ -120,10 +122,7 @@ def add_user():
 def delete_user(user_id):
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute(
-        "DELETE FROM users WHERE id = %s",
-        (user_id,)
-    )
+    cursor.execute("DELETE FROM users WHERE id = %s", (user_id,))
     conn.commit()
     conn.close()
 
@@ -132,6 +131,7 @@ def delete_user(user_id):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+```
 
 
 **Step 6:** Run backend
