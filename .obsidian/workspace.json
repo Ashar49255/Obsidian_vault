@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📂 Project Structure.md",
+                "file": "User Management App Through Dockerfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📂 Project Structure"
+              "title": "User Management App Through Dockerfile"
             }
           }
         ],
@@ -244,8 +244,8 @@
   },
   "active": "5d29db879ba37276",
   "lastOpenFiles": [
+    "📂 Project StructuredUnti.md",
     "User Management App Through Dockerfile.md",
-    "📂 Project Structure.md",
     "S3 Lab/S3 + CloudFront (Frontend).md",
     "User add project via Dockerfile",
     "S3 Lab/s3 services in aws.md",
