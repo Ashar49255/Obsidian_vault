@@ -97,7 +97,202 @@
 
 **File:** `index.html`
 
-``<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>AWS Users Dashboard</title> <style> *{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#4f46e5,#9333ea);min-height:100vh;display:flex;justify-content:center;align-items:center}.card{background:#fff;width:420px;padding:25px;border-radius:16px;box-shadow:0 20px 50px rgba(0,0,0,0.25)}h1{text-align:center;margin-bottom:20px;color:#111827}.form-group input{width:100%;padding:12px;margin-bottom:10px;border-radius:8px;border:1px solid #d1d5db;font-size:14px}.form-group input:focus{outline:none;border-color:#6366f1}.add-btn{width:100%;padding:12px;background:#4f46e5;color:white;font-size:15px;border:none;border-radius:8px;cursor:pointer;transition:.3s}.add-btn:hover{background:#4338ca}ul{list-style:none;padding:0;margin-top:20px}li{background:#f9fafb;padding:12px;margin-bottom:10px;border-radius:8px;display:flex;justify-content:space-between;align-items:center}.user-info{display:flex;flex-direction:column}.user-name{font-weight:600;color:#111827}.user-email{font-size:13px;color:#6b7280}.delete-btn{background:#ef4444;color:white;border:none;padding:6px 10px;border-radius:6px;cursor:pointer}.delete-btn:hover{background:#dc2626}.footer{text-align:center;margin-top:15px;font-size:12px;color:#9ca3af} </style> </head> <body> <div class="card"> <h1>👥 Users Manager</h1> <div class="form-group"> <input id="name" placeholder="Enter name"> <input id="email" placeholder="Enter email"> <button class="add-btn" onclick="addUser()">➕ Add User</button> </div> <ul id="users"></ul> <div class="footer">AWS • EC2 • RDS • S3 • CloudFront</div> </div> <script> const API="http://<EC2_PUBLIC_IP>:5000/api/users"; function loadUsers(){fetch(API).then(res=>res.json()).then(data=>{const ul=document.getElementById("users");ul.innerHTML="";data.forEach(u=>{ul.innerHTML+=`<li><div class="user-info"><span class="user-name">${u.name}</span><span class="user-email">${u.email}</span></div><button class="delete-btn" onclick="deleteUser(${u.id})">Delete</button></li>`})})}function addUser(){const name=document.getElementById("name").value;const email=document.getElementById("email").value;if(!name||!email){alert("Please enter name and email");return}fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name,email})}).then(()=>{document.getElementById("name").value="";document.getElementById("email").value="";loadUsers()})}function deleteUser(id){fetch(API+"/"+id,{method:"DELETE"}).then(()=>loadUsers())}loadUsers(); </script> </body> </html>``
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AWS Users Dashboard</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 420px;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #111827;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #d1d5db;
+            font-size: 14px;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #6366f1;
+        }
+
+        .add-btn {
+            width: 100%;
+            padding: 12px;
+            background: #4f46e5;
+            color: white;
+            font-size: 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .add-btn:hover {
+            background: #4338ca;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            background: #f9fafb;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .user-name {
+            font-weight: 600;
+            color: #111827;
+        }
+
+        .user-email {
+            font-size: 13px;
+            color: #6b7280;
+        }
+
+        .delete-btn {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .delete-btn:hover {
+            background: #dc2626;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>👥 Users Manager</h1>
+
+        <div class="form-group">
+            <input id="name" type="text" placeholder="Enter name" />
+            <input id="email" type="email" placeholder="Enter email" />
+            <button class="add-btn" onclick="addUser()">➕ Add User</button>
+        </div>
+
+        <ul id="users"></ul>
+
+        <div class="footer">
+            AWS • EC2 • RDS • S3 • CloudFront
+        </div>
+    </div>
+
+    <script>
+        // Replace <EC2_PUBLIC_IP> with your actual EC2 public IP or domain
+        const API = "http://<EC2_PUBLIC_IP>:5000/api/users";
+
+        function loadUsers() {
+            fetch(API)
+                .then(res => res.json())
+                .then(data => {
+                    const ul = document.getElementById("users");
+                    ul.innerHTML = "";
+
+                    data.forEach(u => {
+                        ul.innerHTML += `
+                            <li>
+                                <div class="user-info">
+                                    <span class="user-name">${u.name}</span>
+                                    <span class="user-email">${u.email}</span>
+                                </div>
+                                <button class="delete-btn" onclick="deleteUser(${u.id})">
+                                    Delete
+                                </button>
+                            </li>
+                        `;
+                    });
+                });
+        }
+
+        function addUser() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+
+            if (!name || !email) {
+                alert("Please enter name and email");
+                return;
+            }
+
+            fetch(API, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ name, email }),
+            }).then(() => {
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                loadUsers();
+            });
+        }
+
+        function deleteUser(id) {
+            fetch(`${API}/${id}`, {
+                method: "DELETE",
+            }).then(() => loadUsers());
+        }
+
+        loadUsers();
+    </script>
+</body>
+</html>
+```
 
 - Replace `<EC2_PUBLIC_IP>` with backend EC2 IP
     
