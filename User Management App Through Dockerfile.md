@@ -1,10 +1,10 @@
-
+# **Final User Management App – Complete Project**
 
 ---
 
 ## **Folder Structure**
 
-`user-app/ │ ├── backend/ │   ├── index.js          # Express server with all APIs │   ├── db.js             # MySQL connection │   ├── package.json      # Backend dependencies │   └── Dockerfile        # Backend Dockerfile │ ├── frontend/ │   ├── src/ │   │   ├── App.jsx       # Main React component │   │   └── main.jsx      # Vite entry point │   ├── public/ │   │   └── index.html │   ├── package.json      # Frontend dependencies │   ├── vite.config.js │   └── Dockerfile        # Frontend Dockerfile (Nginx) │ └── README.md             # This documentation`
+
 
 ---
 
