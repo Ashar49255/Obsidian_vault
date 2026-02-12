@@ -1,7 +1,8 @@
+......
 
 ## Table of Contents
 
-1. Introduction to Twingate
+1. Introduction to Twin gate
     
 2. Why Twingate (ZTNA vs Traditional VPN)
     
