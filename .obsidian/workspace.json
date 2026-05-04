@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAST for testing app.md",
+                "file": "2026-05-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAST for testing app"
+              "title": "2026-05-04"
             }
           },
           {
@@ -207,6 +207,8 @@
   },
   "active": "b8de793c7dac9252",
   "lastOpenFiles": [
+    "SAST for testing app.md",
+    "2026-05-04.md",
     "2026-04-29.md",
     "2026-04-23.md",
     "2026-04-22.md",
@@ -215,7 +217,6 @@
     "AWS Cost & Security Audit Report.md",
     "Building a DevOps Pipeline.md",
     "Maestro Cloud.md",
-    "SAST for testing app.md",
     "PXE Boot.md",
     "Simple User Add App/SIMPLE DEPLOYMENT STEPS.md",
     "Simple User Add App/Path Base and Host Base Routing.md",
@@ -243,7 +244,6 @@
     "Personal",
     "GCP Professional Certifcate",
     "AWS Review Cost",
-    "Feb-16- ECR CES RDS CI-CD pipeline/Dockerized Frontend & Backend Deployment on AWS.md",
     "Feb-16- ECR CES RDS CI-CD pipeline",
     "12-feb-25",
     "text",
