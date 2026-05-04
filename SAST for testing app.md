@@ -52,8 +52,6 @@ Software Composition Analysis (SCA) in DevSecOps ==automates the identification,
 - **Automated Governance:** Automatically enforces security policies within the development lifecycle
 ---------------------------------------------------------------------
 
-fhghgfh
-fhgfhf
 
 
 
