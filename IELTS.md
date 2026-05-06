@@ -12,3 +12,5 @@
 4  After all we reached our last module Specking this is very important, you find a some guy if        not possible then you use Gemini for specking practices.
 
 -----------------------------------------------
+
+One module for two hour
