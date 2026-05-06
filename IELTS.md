@@ -13,4 +13,6 @@
 
 -----------------------------------------------
 
-One module for two hour
+One module for two hours
+ Monday  Listening 
+ Tuesday  Reading
