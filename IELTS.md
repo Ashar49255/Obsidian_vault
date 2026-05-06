@@ -1,6 +1,6 @@
 1: Academic          2: General
 
-	Reading     Listening
+	Listening   Reading
 	Writing     Specking
 
 1   First we start from module 1 listening because this part is easy.
