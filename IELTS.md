@@ -1,4 +1,4 @@
-1: Academic        2: General
+1: Academic          2: General
 
 	Reading     Listening
 	Writing     Specking
