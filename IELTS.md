@@ -18,5 +18,8 @@ One module for two hours
  Tuesday  Reading
  Wednesday Writing
  final day specking
------------------------------------------
- 
+
+----------------------------------------------------------
+
+if you can four hours  Listening and Reading One day 
+Writing and specking
