@@ -22,4 +22,6 @@ One module for two hours
 ----------------------------------------------------------
 
 if you can four hours  Listening and Reading One day 
-Writing and specking
+Writing and specking other Day
+
+if you have 6 to 8 hours then i strongly recomme
