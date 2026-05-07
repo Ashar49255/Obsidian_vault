@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"age = 20if age >= 18:    print(\\\"Eligible\\\")else:    print(\\\"Not Eligible\\\")\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8de793c7dac9252",
+  "active": "ffdad2665ed2bda3",
   "lastOpenFiles": [
     "2026-05-07.md",
     "IELTS.md",
