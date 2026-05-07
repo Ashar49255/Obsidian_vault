@@ -33,5 +33,5 @@ else:
 loop mean repeat same task 
 
 ==For Loop==
-
+When you know the number of repetitions
 
