@@ -28,4 +28,10 @@ else:
     print("Odd")
 
 -----------------------------------------------------
-Loop 
+==Loop== 
+
+loop mean repeat same task 
+
+==For Loop==
+
+
