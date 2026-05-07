@@ -35,3 +35,8 @@ loop mean repeat same task
 ==For Loop==
 When you know the number of repetitions
 
+for i in range(5):
+    print(i)
+
+
+
