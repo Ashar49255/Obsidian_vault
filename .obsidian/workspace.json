@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-05-07.md",
+                "file": "CM IT Internship program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-07"
+              "title": "CM IT Internship program"
             }
           },
           {
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"age = 20if age >= 18:    print(\\\"Eligible\\\")else:    print(\\\"Not Eligible\\\")\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,9 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffdad2665ed2bda3",
+  "active": "b8de793c7dac9252",
   "lastOpenFiles": [
-    "2026-05-07.md",
+    "CM IT Internship program.md",
     "IELTS.md",
     "2026-05-05.md",
     "Maestro Cloud.md",
