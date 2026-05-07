@@ -4,7 +4,7 @@ Welcome to the CMIT ==Internship== Program!
 Review Core IT Concepts Focus on fundamentals: 
 Programming basics (conditions, loops, functions, OOP)
 
-		Condition is using for decision making;
+==Condition is using for decision making;==
 
 age = 20
 if age >= 18:
@@ -13,7 +13,7 @@ else:
     print("Not Eligible")
 
 ----------------------------------
-==Difference between `=` and    `==`==
+==Difference between   `  =  ` and `  ==  `==
 
 = is use for assign value              example:      x = 5
 == is use for comparison            example:       x == 5
@@ -23,6 +23,9 @@ else:
 num = 10
 
 if num % 2 == 0:
-    print("Even")
+    print("Even")  
 else:
     print("Odd")
+
+-----------------------------------------------------
+Loop 
