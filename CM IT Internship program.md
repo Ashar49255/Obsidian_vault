@@ -38,5 +38,9 @@ When you know the number of repetitions
 for i in range(5):
     print(i)
 
+-----------------------------------------
+While Loop
+
+- **If the condition is true, it stops; otherwise, it keeps running.**
 
 
