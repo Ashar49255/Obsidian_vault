@@ -43,7 +43,7 @@ for i in range(5):
 While Loop
 
  **If the condition is true, it stops; otherwise, it keeps running.**
-**x = 1
+x = 1
 
 while x <= 5:
     print(x)
