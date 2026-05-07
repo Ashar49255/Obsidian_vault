@@ -1,5 +1,5 @@
 
-Welcome to the CMIT Internship Program! 
+Welcome to the CMIT ==Internship== Program! 
 
 Review Core IT Concepts Focus on fundamentals: 
 Programming basics (conditions, loops, functions, OOP)
