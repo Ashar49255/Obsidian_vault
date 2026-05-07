@@ -13,11 +13,16 @@ else:
     print("Not Eligible")
 
 ----------------------------------
-Difference between `=` and `==`
+==Difference between `=` and    `==`==
 
 = is use for assign value              example:      x = 5
 == is use for comparison            example:       x == 5
 
 ---------------------------------------------
+==Check Number even and odd?==
+num = 10
 
-
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
