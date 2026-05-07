@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,7 +205,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8de793c7dac9252",
+  "active": "3e67cbdb4c6d9ff7",
   "lastOpenFiles": [
     "CM IT Internship program.md",
     "IELTS.md",
