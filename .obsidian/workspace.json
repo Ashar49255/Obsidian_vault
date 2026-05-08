@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CM IT Internship program.md",
+                "file": "2026-05-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CM IT Internship program"
+              "title": "2026-05-05"
             }
           },
           {
@@ -205,10 +205,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e67cbdb4c6d9ff7",
+  "active": "b8de793c7dac9252",
   "lastOpenFiles": [
+    "AI Impact on DevOps.md",
+    "AWS Cost & Security Audit Report.md",
+    "Building a DevOps Pipeline.md",
     "CM IT Internship program.md",
     "IELTS.md",
+    "Summary about DevOps and AI.md",
+    "Untitled.base",
     "2026-05-05.md",
     "Maestro Cloud.md",
     "SAST for testing app.md",
@@ -217,9 +222,6 @@
     "2026-04-23.md",
     "2026-04-22.md",
     "2026-04-16.md",
-    "AI Impact on DevOps.md",
-    "AWS Cost & Security Audit Report.md",
-    "Building a DevOps Pipeline.md",
     "PXE Boot.md",
     "Simple User Add App/SIMPLE DEPLOYMENT STEPS.md",
     "Simple User Add App/Path Base and Host Base Routing.md",
@@ -228,8 +230,6 @@
     "Screenshot from 2026-03-25 16-36-46.png",
     "Screenshot from 2026-03-25 16-58-02.png",
     "Screenshot from 2026-04-02 19-33-37.png",
-    "Summary about DevOps and AI.md",
-    "Untitled.base",
     "task key.md",
     "2026-04-28.md",
     "GCP Professional Certifcate/GKE notes.md",
@@ -239,7 +239,6 @@
     "2026-04-21.md",
     "User add project via Dockerfile/User Management System - Full Stack Documentation.md",
     "Twingate working Lab/Twingate ZTNA_Practical Implementation Guide.md",
-    "GCP Professional Certifcate/Notes Databases.md",
     "Untitled",
     "Personal",
     "GCP Professional Certifcate",
